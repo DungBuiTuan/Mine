@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caviche', sans-serif;
+}
+
+body {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 900px;
+    background: rgb(96, 94, 94);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left_side {
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.profile_text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(24, 25, 36);
+}
+
+.profile_text .imgB {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile_text .imgB img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile_text h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+.profile_text h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contact-infor {
+    padding-top: 35px;
+}
+
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    ;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contact-infor ul {
+    position: relative;
+}
+
+.contact-infor ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    color: rgb(8, 71, 109);
+}
+
+.contact-infor ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contact-skill {
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.contact-skill ul {
+    position: relative;
+}
+
+.contact-skill ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    color: rgb(1, 101, 163);
+}
+
+.contact-skill ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.container .right_side {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.about {
+    padding-top: -5px;
+}
+
+.title2 {
+    color: #fff;
+    text-transform: uppercase;
+    ;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+    border: 1px solid rgb(40, 7, 129);
+    margin: 0 auto;
+    background-color: rgb(7, 82, 162);
+    text-align: center;
+    width: 400px;
+    margin-right: 40%;
+    border-radius: 5px;
+}
+
+.about h4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.title3 {
+    color: #fff;
+    text-transform: uppercase;
+    ;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 90px;
+    margin-top: 90px;
+    border: 1px solid rgb(40, 7, 129);
+    margin: 0 auto;
+    background-color: rgb(7, 82, 162);
+    text-align: center;
+    width: 400px;
+    margin-right: 40%;
+    border-radius: 5px;
+}
+
+.about .texta {
+    margin-top: 25px;
+}
+
+.title4 {
+    color: #fff;
+    text-transform: uppercase;
+    ;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border: 1px solid rgb(40, 7, 129);
+    margin: 0 auto;
+    background-color: rgb(7, 82, 162);
+    text-align: center;
+    width: 400px;
+    margin-right: 40%;
+    border-radius: 5px;
+}
+
+.skill .box {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill .box h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.skill .box .percent {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: rgb(87, 90, 90);
+}
+
+.skill .box .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(7, 82, 162);
+}
+
+.language .box {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.language .box h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.language .box .percent {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: rgb(87, 90, 90);
+}
+
+.language .box .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(7, 82, 162);
+}
+
+.inter ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.inter ul li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.inter ul li .fa {
+    color: rgb(7, 82, 162);
+    font-size: 18px;
+    width: 20px;
+}
+
+@media(max-width:1000px) {
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .inter ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width:600px) {
+    .about .box {
+        flex-direction: column;
+    }
+    .inter ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
