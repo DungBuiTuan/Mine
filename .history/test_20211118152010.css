@@ -1,0 +1,7 @@
+p::first-letter{
+    font-size: 30px;
+    font-variant: small-caps;
+}
+p::selection{
+    background: #ff8daf;;
+}
